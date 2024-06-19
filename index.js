@@ -1,4 +1,4 @@
-import '/componets/SpinnerComponent.js';
+import './componets/SpinnerComponent.js';
 
 // usendo spinner
 
