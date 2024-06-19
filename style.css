@@ -1,0 +1,58 @@
+/* header */
+*{
+    margin: 0;
+}
+
+.hero-image-container{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(242, 125, 114, 0.651) 0%, hsla(345, 14%, 60%, 0.336) 100%);
+    opacity: 0.8;
+}
+.container-img{
+    position: relative;
+    background-color: #A68A91;
+}
+.hero-text{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.img-hero{
+    object-fit: cover;
+    mask-image: linear-gradient(to left, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+.container-img-article{
+    width: 800px;
+    height: 400px;
+}
+
+article img{
+    object-fit: cover;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* spinner ----------------------------------------------*/
+spinner-component{ 
+    width: 100%;
+    height: 100%; 
+     display: none;
+    opacity: 0.9;
+    
+}
+
+.show{
+    display: block;
+}
